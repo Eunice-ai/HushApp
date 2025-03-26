@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hush Prototype</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Seller Profile -->
+     <div class="profile-card">
+        <div class="profile-pic">
+            <img src="asset/profile_img/hot_guy.jpg" alt="HotGuy123">
+        </div>
+        <h2>HotGuy123</h2>
+        <p>"Meaningful connections, worthy earnings."</p>
+        <p>Rate: <strong>$2/min</strong></p>
+        <button onclick="simulatePayment()">Pay to Chat Now</button>    
+     </div>
+
+     <!-- Fake Payment JS -->
+      <script>
+        function simulatePayment() {
+            alert("In the real app, this would open Stripe to pay $2!")
+        }
+      </script>
+    
+</body>
+</html>
