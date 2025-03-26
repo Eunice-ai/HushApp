@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hush Prototype</title>
     <link rel="stylesheet" href="style.css">
+
+    <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 </head>
+
 <body>
     <!-- Seller Profile -->
-     <div class="profile-card">
+    <div class="profile-card">
         <div class="profile-pic">
             <img src="asset/profile_img/hot_guy.jpg" alt="HotGuy123">
         </div>
         <h2>HotGuy123</h2>
         <p>"Meaningful connections, worthy earnings."</p>
         <p>Rate: <strong>$2/min</strong></p>
-        <button onclick="simulatePayment()">Pay to Chat Now</button>    
-     </div>
+        <button onclick="simulatePayment()">Pay to Chat Now</button>
 
-     <!-- Fake Payment JS -->
-      <script>
+        <a href="https://docs.google.com/forms/d/1-0n7y5hQaLN0tHt8nvxutzyu0cddQSGJE7QiUvcBCkM/edit" target="_blank">
+            <button>Join Beta Waitlist</button>
+        </a>
+    </div>
+
+    <!-- Fake Payment JS -->
+    <script>
         function simulatePayment() {
             alert("In the real app, this would open Stripe to pay $2!")
         }
-      </script>
-    
+    </script>
+
 </body>
+
 </html>
