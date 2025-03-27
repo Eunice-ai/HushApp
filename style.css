@@ -78,9 +78,14 @@ p {
     font-size: 1.3rem;
 }
 
+.profile-background {
+    background: #F8F9FA;
+    padding: 25px;
+}
+
 .profile-card {
     border: 1px solid #ddd;
-    padding: 20px;
+    padding-top: 20px;
     border-radius: 10px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
