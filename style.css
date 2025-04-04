@@ -14,11 +14,11 @@ body {
 .story-section {
     font-family: 'Helvetica', sans-serif;
     max-width: 800px;
-    margin: 40px auto;
+    margin: auto ;
     padding: 30px;
     background: #fff9f9;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    /* border-radius: 15px; */
+    /* box-shadow: 0 5px 15px rgba(0,0,0,0.05); */
 }
 .story-header {
     color: #3D5A80; 
@@ -56,7 +56,8 @@ body {
 }
 
 .story {
-    background: #F8F9FA;
+    /* background: #F8F9FA; */
+    background: #fff9f9;
     padding: 2rem;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -77,6 +78,7 @@ body {
 p {
     color: #3D5A80;
     font-size: 1.3rem;
+    
 }
 
 .profile-background {
